@@ -1,0 +1,80 @@
+
+body{
+	font-size: 16px;
+	color: #404040;
+	font-family: 'Georgia', serif;
+}
+#title{
+	color: aliceblue;
+}
+#header-nav {
+	background-color: #343635;
+	border-radius: 0;
+	border: 0;	
+}
+.navbar-brand {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: aliceblue;
+}
+.navbar-brand h1 {
+	font-family: sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #484538; 
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: aliceblue;
+	text-align: center;
+}
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #0f0f0f; 
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+#collapsable-nav {
+	margin-bottom: -15px;
+}
+
+.container .tall-section {
+	border: 2px solid  #484538;
+	border-radius: 0;
+	min-height: 1000px;
+	color: #363838; 
+	margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+	#collapsable-nav #nav-list li{
+		display: none !important;
+	}
+	.navbar-toggle {
+		display: none !important;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 75px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+}
